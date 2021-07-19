@@ -115,22 +115,12 @@ header .navigation li a:hover {
     background: linear-gradient(to top,rgb(106, 240, 255),transition); 
 }
 
-video { 
-    position: absolute;  
-    top: 0;
-    left: 0; 
-    height: 100vh;    
-    width: 100%;
-    display: flex;
-    object-fit: cover;
-}
 
 /***************section2*********************/
 .container-2 {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
@@ -162,6 +152,7 @@ video {
     left: 50%;
     height: 100%;
     width: 50%;  
+    
    
 }
 
@@ -170,6 +161,7 @@ video {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    object-fit: url("https://www.sebrae.com.br/Sebrae/Portal%20Sebrae/Imagens%20SebraeNA/xBrecho,PCC,P81,P201.png.pagespeed.ic.wBrG196sCy.jpg");
 }
 
 .form-group form{
@@ -188,7 +180,8 @@ form .form-content .title{
     position: relative;
     font-size: 24px;
     font-weight: 700;
-    color: #000;        
+    color: #000;
+    text-decoration: none;        
 }
 
 form .form-content .title:before {
@@ -199,10 +192,12 @@ form .form-content .title:before {
     height: 3px;
     width: 110px;
     background: #000;
+    text-decoration: none;
 }
 
 form .signup-form .title:before {
     width: 20px;    
+    text-decoration: none;
 }
 
 form .form-content .input-boxes {
@@ -320,7 +315,7 @@ form .form-content .button input:hover{
         top: 0;
         left: 0;
         right: 0;
-        background: linear-gradient(#000,0.5rem);
+        
         bottom: 0;
         z-index: 10;
         display: none;
@@ -330,7 +325,8 @@ form .form-content .button input:hover{
         
     }
     header .navigation.active {
-        display: flex;
+        display: none;
+
     }
     header .navigation li a {
         font-size:24px;
@@ -340,18 +336,11 @@ form .form-content .button input:hover{
         position: relative;
         width: 30px;
         height: 30px;
-        background: #000;
         background-position: center;
         background-size: 30px;
         background-repeat: no-repeat;
         cursor: pointer;
         z-index: 11;
-    }
-    .toggleMenu.active {
-        background: url(../assets/close.png);
-        background-position: center;
-        background-size: 30px;
-        background-repeat: no-repeat;
     }
     .page-header {
         font-size: 1.5rem;
