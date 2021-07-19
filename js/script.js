@@ -17,13 +17,13 @@ form.addEventListener('submit', (e) => {
 
     let formGroup = document.getElementById('form-group');
     let loading = `<img src="./assets/loading.jpg">`
-    let cadastrado = `<p style="font-size:30px;text-align:center;">Cadastro realizado com sucesso!</p>`
+    let cadastrado = `<p style="font-size:30px;text-align:center;">Cadastro realizado com sucesso! Aproveite!</p>`
 
     formGroup.innerHTML = loading
 
     setTimeout(() => {
         formGroup.innerHTML = cadastrado
-    }, 1000)
+    }, 3000)
 })
 
 function toggleMenu() {

@@ -63,13 +63,13 @@ header .navigation li a:hover {
 
 .content .text h3 {
     font-size: 2em;
-    color:lightgoldenrodyellow;
+    color: gray;
     line-height: 1rem;
 }
 
 .content .text p {
     font-size: 1.1em;
-    color: lightslategray;
+    color: gray 1.5rem;
     font-weight: 300;
     margin: 20px 0 20px 50% ;
 }
@@ -86,7 +86,7 @@ header .navigation li a:hover {
 }
 
 .content .text a:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .text {
@@ -110,7 +110,7 @@ header .navigation li a:hover {
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #ded0cb, transparent); 
+    background: linear-gradient(to top, #000fff, transparent); 
 }
 
 video { 
@@ -140,7 +140,7 @@ video {
     font-size:2rem;
     font-weight: 700;
     text-align: center;
-    color: #b17e4f;
+    color: #000fff;
     margin: 0 30px 50px 30px;   
 }
 
@@ -186,7 +186,7 @@ form .form-content .title{
     position: relative;
     font-size: 24px;
     font-weight: 700;
-    color: #6d5449;        
+    color: #000;        
 }
 
 form .form-content .title:before {
@@ -196,7 +196,7 @@ form .form-content .title:before {
     bottom: 0;
     height: 3px;
     width: 110px;
-    background: #000;
+    background: #fff;
 }
 
 form .signup-form .title:before {
@@ -224,7 +224,7 @@ form .form-content .input-box {
     padding: 0 30px;
     font-size: 17px;
     font-weight: 500;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 100, 0.2);
     transition: all 0.4s ease;    
 }
 
@@ -235,7 +235,7 @@ form .form-content .input-box {
 
 .form-content .input-box i {
     position: absolute;
-    color: brown;
+    color: #000;
     font-size: 18px;
 }
 
@@ -250,12 +250,12 @@ form .form-content .text1 a{
 }
 
 form .form-content .button{
-    color: #fff;
+    color: #000;
     margin-top: 40px
 }
 
 form .form-content .button input{
-    color: #fff;
+    color: #000;
     background: brown;
     border-radius: 6px;
     padding: 0;
@@ -301,7 +301,7 @@ form .form-content .button input:hover{
 }
 
 .footer-section p {
-    color: gray;
+    color: darkcyan;
 }
 
 
@@ -314,7 +314,7 @@ form .form-content .button input:hover{
         top: 0;
         left: 0;
         right: 0;
-        background: #e4dad7;
+        background: linear-gradient(gray,0.5rem);
         bottom: 0;
         z-index: 10;
         display: none;
